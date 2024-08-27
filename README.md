@@ -1208,7 +1208,7 @@ Al igual que la implementación de la parte visual para los autores, la parte vi
                             tr.setAttribute('data-id', info.id);
                             tr.innerHTML = `<td>${info.id}</td>
                                             <td>${info.titulo}</td>
-                                            <td>${info.autor_nombre}</td>
+                                            <td>${info.autor_id}</td>
                                             <td>${info.fecha_publicacion}</td>
                                             <td><button class='btn btn-warning btnEditar'>Editar</button>
                                             <button class='btn btn-danger btnEliminar'>Eliminar</button></td>`;
